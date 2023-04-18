@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Signa.CadDescricao.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Signa.CadDescricao.Api.Controllers.PermissaoUsuarioController.Get">
+            <summary>
+            Busca permissão do usuário logado na base de dados
+            </summary>
+            <response code="200">Permissões cadastradas na base de dados</response>
+            <response code="404">Nenhuma permissão encontrada na base de dados</response>
+        </member>
+    </members>
+</doc>
